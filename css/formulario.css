@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(rgb(0, 255, 255), black);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 115vh;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    margin: .5em auto;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+form {
+    background: black;
+    text-align: left;
+    width: 30%;
+    margin: 3% auto 0 auto;
+    padding: 3em;
+    color: #F1F1F1;
+}
+
+form label {
+    padding-left: .8em;
+    line-height: 1.8em;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+form input, select, textarea {
+    width: 100%;
+    padding: .5em;
+    background: none;
+    border: rgb(0, 255, 255) .1em solid;
+    border-radius: .3em;
+    color: #F1F1F1;
+}
+
+form select option {
+    padding: .5em;
+    background: black;
+    color: #F1F1F1;
+}
+
+form .btn {
+    font-size: 1em;
+}
+
+form .btn:hover {
+    background: rgb(0, 255, 255);
+    color: black;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="" method="POST">
+        <label for="txtname">Nombre</label><br>
+        <input type="text" name="txtname" id="txtname" placeholder="Tu nombre" required="required" autofocus="autofocus"><br>
+        <br>
+        <label for="txtemail">Correo electrónico</label><br>
+        <input type="email" name="txtemail" id="txtemail" placeholder="website@empresa.com" required="required"><br>
+        <br>
+        <label for="txtselect">¿Que quiere hacer?</label><br>
+        <select name="txtselect" id="txtselect">-Seleccione uno-
+            <option value="mesaje">Dejar un mensaje</option>
+            <option value="info">Solicitar infromación</option>
+            <option value="contact">Obtener un número de contacto</option>
+            <option value="tarifas">Obtener un catálogo</option>
+        </select><br>
+        <br>
+        <label for="txtmensaje">Mensaje</label><br>
+        <textarea name="txtmensaje" id="txtmensaje" cols="30" rows="10">Escriba el mensaje aquí</textarea><br>
+        <br>
+        <input type="submit" value="Guardar">
+    </form>
+    <br>
+    <br>
+    <a class="navbar-brand" href="bajaj.html"><img src="images/Logo.png" alt="" width="55"></a>
+</body>
+</html>
